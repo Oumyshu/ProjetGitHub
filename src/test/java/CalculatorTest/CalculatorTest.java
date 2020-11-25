@@ -50,14 +50,14 @@ public class CalculatorTest {
     }
     @Test
 
-    public void testMinimum() {
+    public void testMin() {
 
         // Given
         //Calculator calculator = new Calculator();
         // When
-        int result = calculator.Minimum(3, 4);
+        int result = calculator.Minimum(5, 4);
         // Then
-        if (result != 3) {
+        if (result != 4) {
             Assert.fail();
         }
 
