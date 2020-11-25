@@ -23,14 +23,14 @@ public class CalculatorTest {
         calculator=new Calculator();
     }
     @Test
-    public void testSum() {
+    public void testSomme() {
 
         // Given
         //Calculator calculator = new Calculator();
         // When
-        int result = calculator.sum(2, 2);
+        int result = calculator.sum(3, 2);
         // Then
-        if (result != 4) {   // if 2 + 2 != 4
+        if (result != 5) {   // if 2 + 2 != 4
             Assert.fail();
         }
     }
