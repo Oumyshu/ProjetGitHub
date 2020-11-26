@@ -1,10 +1,9 @@
 FROM openjdk:8-jdk-alpine
 
-ARG JAR_FILE=target/Git-1.0-SNAPSHOT.jar
 ARG JAR_FILE=target/Git.java.jar
 ARG JAR_LIB_FILE=target/lib/
 
-
+# cd /usr/local/runme
 WORKDIR /usr/local/runme
 
 # copy target/find-links.jar /usr/local/runme/app.jar
