@@ -32,6 +32,8 @@ public class CalculatorTest {
     }
 
 
+   //Methode pour savoir le plus grand element d'une liste
+
     @Test
     public void testMinimumElt() {
         int []	list= {1,2,7,10};
