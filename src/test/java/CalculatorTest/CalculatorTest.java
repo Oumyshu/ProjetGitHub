@@ -22,7 +22,7 @@ public class CalculatorTest {
     public void setUp() throws Exception{
         calculator=new Calculator();
     }
-   
+   //Methode pour savoir le plus petit element d'une liste
 
     @Test
     public void testMaximumElt() {
